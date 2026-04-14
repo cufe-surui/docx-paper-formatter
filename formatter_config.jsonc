@@ -1,0 +1,99 @@
+{
+  // general: GUI 运行选项
+  "general": {
+    // suffix: 生成后的文档文件名后缀
+    "suffix": "_标准论文格式",
+    // default_output_subdir: 未手动指定导出目录时，默认输出到输入文档所在位置下的哪个子目录
+    "default_output_subdir": "output/doc",
+    // overwrite: 输出文件已存在时，是否允许直接覆盖
+    "overwrite": false,
+    // add_header_footer: 是否自动写入页眉标题和页脚页码
+    "add_header_footer": true
+  },
+
+  // fonts: 中英文字体设置
+  "fonts": {
+    // western: 英文、数字和西文字母默认字体
+    "western": "Times New Roman",
+    // chinese: 中文默认字体
+    "chinese": "宋体"
+  },
+
+  // sizes_pt: 各类文本的字号，单位为磅 pt
+  "sizes_pt": {
+    // title: 论文题目字号
+    "title": 15,
+    // abstract_heading: “摘要/Abstract”标题字号
+    "abstract_heading": 16,
+    // level1_heading: 一级标题字号
+    "level1_heading": 14,
+    // body: 正文、摘要正文、参考文献正文等常规内容字号
+    "body": 12,
+    // small_five: 图表说明、页眉页脚等较小文字字号
+    "small_five": 10.5
+  },
+
+  // indents_cm: 缩进设置，单位为厘米 cm
+  "indents_cm": {
+    // two_char: 中文常用“两字符缩进”的近似宽度
+    "two_char": 0.74
+  },
+
+  // page: 页面尺寸和页边距设置，单位为厘米 cm
+  "page": {
+    // width_cm: 页面宽度，A4 通常为 21
+    "width_cm": 21,
+    // height_cm: 页面高度，A4 通常为 29.7
+    "height_cm": 29.7,
+    // top_margin_cm: 上页边距
+    "top_margin_cm": 2.54,
+    // bottom_margin_cm: 下页边距
+    "bottom_margin_cm": 2.54,
+    // left_margin_cm: 左页边距
+    "left_margin_cm": 2.54,
+    // right_margin_cm: 右页边距
+    "right_margin_cm": 2.54,
+    // header_distance_cm: 页眉到页面顶端的距离
+    "header_distance_cm": 1.5,
+    // footer_distance_cm: 页脚到页面底端的距离
+    "footer_distance_cm": 1.5
+  },
+
+  // spacing_pt: 各类段落前后间距，单位为磅 pt
+  "spacing_pt": {
+    // title_after: 论文题目后的段后间距
+    "title_after": 12,
+    // abstract_heading_after: 摘要标题后的段后间距
+    "abstract_heading_after": 12,
+    // level1_before: 一级标题前的段前间距
+    "level1_before": 12,
+    // level1_after: 一级标题后的段后间距
+    "level1_after": 12,
+    // reference_heading_before: “参考文献”标题前的段前间距
+    "reference_heading_before": 24,
+    // reference_heading_after: “参考文献”标题后的段后间距
+    "reference_heading_after": 12,
+    // caption_before: 图表标题前的段前间距
+    "caption_before": 12,
+    // caption_after: 图表标题后的段后间距
+    "caption_after": 12,
+    // equation_before: 独立公式前的段前间距
+    "equation_before": 12,
+    // equation_after: 独立公式后的段后间距
+    "equation_after": 12
+  },
+
+  // labels: 自动写入的固定标签文本
+  "labels": {
+    // abstract_cn: 中文摘要标题文本
+    "abstract_cn": "摘　要",
+    // abstract_en: 英文摘要标题文本
+    "abstract_en": "Abstract",
+    // keywords_cn: 中文关键词标签文本
+    "keywords_cn": "关键词：",
+    // keywords_en: 英文关键词标签文本
+    "keywords_en": "Keywords:",
+    // references: 参考文献标题文本
+    "references": "参考文献"
+  }
+}
